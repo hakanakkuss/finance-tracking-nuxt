@@ -1,5 +1,4 @@
-<script setup lang="ts">
-
+<script setup>
 const props = defineProps({
   date: String,
   transactions: Array
@@ -21,7 +20,6 @@ const sum = computed(() => {
 
 const { currency } = useCurrency(sum)
 </script>
-
 
 <template>
   <div
