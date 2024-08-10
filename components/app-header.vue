@@ -1,3 +1,4 @@
+
 <template>
   <header class="flex justify-between items-center">
     <NuxtLink to="/" class="text-xl font-bold">
